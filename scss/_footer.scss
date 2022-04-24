@@ -1,0 +1,60 @@
+.footer {
+    @include flexCenter(column);
+    background: $Dark-Blue;
+
+    .logo {
+        margin: 20px;
+        
+        
+    }
+    .icons {
+       @include flexCenter(row);
+        width: 100%;
+        padding: 5px;
+        svg {
+           margin: 10px;
+           cursor: pointer;
+          
+           
+
+        }
+    }
+    div {
+        @include flexCenter(column);
+
+      a{
+            color: $White;
+            text-decoration: none;
+            padding: 10px;
+            font-weight: 300;
+            font-size: 0.9rem;
+            transition: 0.2s;
+
+            &:hover{
+                color: $Bright-Cyan;
+            }
+
+        }
+    }
+
+    .btn-invite {
+        width: 200px;
+        height: 40px;
+        background: $Lime-Green;
+        border-radius: 15px;
+        border: none;
+        color: $White;
+        font-size: 1rem;
+        margin: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+        &:hover{
+            color: $Dark-Blue;
+        }
+    }
+    p {
+        color: $Grayish-Blue;
+        font-size: 0.8rem;
+        margin: 20px;
+    }
+}

@@ -1,0 +1,47 @@
+.main {
+    .call-to-action {
+        @include flexCenter (column);
+        background: url(/easybank-landing-page-master/images/bg-intro-mobile.svg) no-repeat top;
+        background-size: contain;
+        
+        width: 100%;
+       
+    
+        .bg-mockups {
+            width: 100%;
+        }
+   
+    .mockups {
+        max-width: 400px;
+        position: absolute;
+        top: 0;
+        left: calc(50% - 190px)  ;
+        width: 100%;
+        
+    }
+
+    .call-to-action-txt {
+        color: $Dark-Blue;
+        text-align: center;
+       padding: 480px 30px 30px 30px;
+      
+       
+
+
+        h1 {
+            margin: 10px;
+        }
+
+        p {
+            margin-top: 20px;
+            color: $Grayish-Blue;
+        }
+    }
+
+    .btn-invite {
+       @include button-invite;
+       margin: 20px;
+    }
+    }
+   
+}

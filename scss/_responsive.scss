@@ -1,0 +1,208 @@
+@include media-md {
+    .btn-desktop {
+        display: none;
+    }
+
+    .bg-intro-desktop {
+        display: none;
+    }
+}
+
+
+@include media-lg {
+    .hamburger {
+        visibility: hidden;
+    }
+    .btn-invite{
+        display: block;
+        @include button-invite;
+        right: 0;
+        height: 30px;
+        width: 150px;
+        margin: 0;
+
+    }
+
+    .header {
+       
+        @include flexCenter(row);
+        padding: 35px;
+
+        
+        .logo {
+            position: static;
+        }
+
+        nav {
+            
+           display: flex;
+           height: 100%;
+           border: none;
+           position: static;
+
+           ul {
+               display: flex;
+               flex-direction: row;
+               align-items: center;
+
+               li {
+                   padding: 10px;
+
+                   a {
+                       font-size: 1rem;
+                       color: $Grayish-Blue;
+
+                       &:hover {
+                           color: $Dark-Blue;
+
+                       }
+                   }
+               }
+           }
+        }
+       
+
+    
+    
+    }
+.main {
+
+
+
+    .call-to-action {
+
+        @include flexCenter(row-reverse);
+justify-content: flex-end;
+        height: 700px;
+        background: url(/easybank-landing-page-master/images/bg-intro-desktop.svg) no-repeat top right;
+        background-size: contain;
+       
+
+.bg-intro-mobile {
+    display: none;
+}
+
+.bg-intro-desktop {
+   
+    display: block;
+}
+
+        .mockups {
+            right: 0;
+            
+            right: 0;
+            max-width: fit-content;
+            left: auto
+        }
+    }
+    .call-to-action {
+    .call-to-action-txt {
+       display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        padding: 0 30px 0 60px;
+        width: 40%;
+
+        h1 {
+            margin: 0 0 10px 0;
+            font-size: 3rem;
+            font-weight: 400;
+        }
+
+        p {
+            text-align: left;
+        }
+    }
+
+    .btn-invite {
+        margin:  30px 0 0 0; ;
+    }
+}
+
+}
+
+.advantages {
+   padding: 100px;
+
+   .title-adv {
+       display: flex;
+       width: 100%;
+       align-items: flex-start;
+       p {
+           width: 40%;
+           text-align: left;
+       }
+
+   }
+    .adv-wrap {
+        flex-direction: row;
+        padding: 20px;
+
+        div {
+            align-items: flex-start;
+            p {
+                text-align: left;
+                padding: 20px 20px 0 0 ;
+                
+            }
+        }
+       
+    }
+}
+
+.articles {
+    align-items: flex-start;
+    padding: 70px;
+
+    
+    
+    .article {
+        display: flex;
+        flex-direction: row;
+        
+        div {
+           
+            img {  
+             max-width: 338px;
+                    max-height: 200px; 
+
+                    
+    
+                
+            }
+
+          
+        }
+    }
+
+
+}
+
+.footer {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+
+    .btn-invite {
+        margin: 0;
+    }
+
+.menu-footer {
+    @include flexCenter(column);
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start;
+    height: 145px;
+
+    a {
+        margin: 5px;
+    }
+}
+
+.btn-footer {
+    display: flex;
+}
+}
+
+
+}

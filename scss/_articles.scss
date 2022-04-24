@@ -1,0 +1,49 @@
+.articles {
+    @include flexCenter(column);
+    background: $White;
+    margin-top: 60px;
+    padding: 20px;
+
+
+    h2 {
+        margin-bottom: 30px;
+        color: $Dark-Blue;
+        font-weight: 400;
+
+
+    }
+    div {
+
+        @include flexCenter(column);
+        align-items: flex-start;
+
+
+        padding: 10px;
+
+        img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+
+        .author-name {
+            color: $Grayish-Blue;
+            font-size: 0.7rem;
+            margin-bottom: 10px;
+        } 
+        .title-of-article {
+            color: $Dark-Blue;
+            font-weight: 400;
+            margin-bottom: 10px;
+            font-size: 1rem;
+
+        }
+
+        .p-article {
+            color: $Grayish-Blue;
+            font-weight: 400;
+            font-size: 0.8rem;
+            margin-bottom: 40px;
+        }
+    }
+}

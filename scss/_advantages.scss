@@ -1,0 +1,32 @@
+.advantages {
+    @include flexCenter(column);
+    background: $Light-Grayish-Blue;
+    padding: 40px;
+
+    div {
+        @include flexCenter(column);
+
+        h2 {
+            padding: 5px;
+            color: $Dark-Blue;
+            font-weight: 400;
+            text-align: center;
+        }
+        p {
+            color: $Grayish-Blue;
+            font-size: 0.8rem;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 30px;
+        }
+
+        svg {
+         margin: 20px;
+        }
+
+        h3 {
+            color: $Dark-Blue;
+            font-weight: 400;
+        }
+    }
+}

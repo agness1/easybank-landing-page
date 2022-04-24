@@ -1,0 +1,28 @@
+@import './resets';
+@import './variables';
+@import './config';
+@import './menu';
+@import './call-to-action';
+@import './advantages';
+@import './articles';
+@import './footer';
+@import './responsive';
+
+
+
+
+html {
+    font-size: 18px;
+}
+body {
+   
+    font-family:  'Public Sans', sans-serif;
+}
+
+main {
+    height: 100%;
+    @include flexCenter(column);
+    position: relative;
+    flex-wrap: wrap;
+    width: 100%;
+}
