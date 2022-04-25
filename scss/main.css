@@ -23,6 +23,10 @@
   position: absolute;
 }
 
+.header .btn-desktop {
+  display: none;
+}
+
 .header .hamburger {
   right: 10px;
   line-height: 60px;
@@ -381,9 +385,6 @@
 }
 
 @media screen and (min-width: 375px) {
-  .btn-desktop {
-    display: none;
-  }
   .bg-intro-desktop {
     display: none;
   }

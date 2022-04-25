@@ -10,7 +10,9 @@
     .logo, .hamburger, .close {
     position: absolute;
     }
-
+    .btn-desktop {
+        display: none;
+    }
     .hamburger {
         right: 10px;
         line-height: 60px;
